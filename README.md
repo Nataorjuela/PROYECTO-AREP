@@ -1,5 +1,8 @@
 # PROYECTO-AREP
 
+## Paper
+[Paper](https://github.com/Nataorjuela/PROYECTO-AREP/blob/master/PaperProyectoArep.pdf "paper")
+
 ## Servicios Implementados AWS
 
 [AWS KINESIS](https://www.youtube.com/watch?v=V-lditk9HaM "AWS KINESIS")
