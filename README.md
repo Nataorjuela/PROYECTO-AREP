@@ -1,13 +1,39 @@
 # PROYECTO-AREP
 
+## Autores
+* **Natalia Orjuela Hernandez** - *Autor*  - *Estudiante de ingeniería de sistemas*
+* **David Otalora Bernal** - *Autor*  - *Estudiante de ingeniería de sistemas*
+* **Juan Esteban Cortés** - *Autor*  - *Estudiante de ingeniería de sistemas*
+* **Norbey Cardona Herrera** - *Autor*  - *Estudiante de ingeniería de sistemas*
+* **30/11/2022** - *Fecha* 
+
+## Tabla de contenido
+
+- [Descripción](#descripci%C3%B3n).
+- [Arquitectura](#arquitectura).
+- [Paper](#paper).
+- [Servicios-Implementados-AWS](#servicios-implementados-aws).
+- [Licencia](#licencia)
 
 ## Descripción 
+El concepto de ciudades inteligentes no es algo nuevo, pero ha tomado fuerza en los últimos años. Hoy en día se habla de ciudades inteligentes y sostenibles. Se ha visto como la tecnología avanza a pasos agigantados, pero la sostenibilidad no ha tenido grandes avances. Aunque el acceso a la información se ha facilitado en gran medida, las personas aún no son lo suficientemente concientes de los problemas ambientales actuales y qué deberían hacer para contrarrestarlos.
 
+Por lo mencionado anteriormente, se ha ideado una arquitectura utilizando algunos servicios de AWS y sensores para ayudar a dar un mejor uso a los residuos reciclables, notificando a los aliados(recicladores) cuáles son los contenedores más llenos para que se haga una recolección prioritaria en estos. Se llevarán registros en la base de datos que serán analizados para tener una idea del impacto que ha tenido la arquitectura implementada con respecto a meses anteriores, además de establecer puntos críticos en la ayuda de servicios de ubicación.
 
 ## Arquitectura
+Los siguientes son algunos de los servicios usados en la arquitectura planteada.
 
+#### AWS Kinesis
+Amazon Kinesis ofrece la fácil obtención de datos de streaming en tiempo real obteniendo resultados optimos en el procesamiento y analisis de los mismos.
 
+#### Dynamo
+Amazon Dynamo es un servicio de bases de datos NoSQL propia de Amazon.
 
+#### Cognito
+Amazon Cognito es un servicio que permite el registro, inicio de sesión y control de acceso a las soluciones web y moviles.
+
+#### Amazon Location Service
+Amazon Location Service es un servicio para obtener la ubicación geográfica de los usuarios de una manera segura y rápida.
 
 ## Paper
 
