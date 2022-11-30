@@ -49,3 +49,6 @@ Amazon Location Service es un servicio para obtener la ubicación geográfica de
 [AWS COGNITO](https://www.youtube.com/watch?v=wfD-Hyr4Nxo "AWS COGNITO")
 
 [AWS LOCATION SERVICE](https://www.youtube.com/watch?v=jpser559otI "AWS LOCATION SERVICE")
+
+## Licencia
+[Licencia](/LICENSE.txt)
