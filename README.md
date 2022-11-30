@@ -21,19 +21,9 @@ El concepto de ciudades inteligentes no es algo nuevo, pero ha tomado fuerza en 
 Por lo mencionado anteriormente, se ha ideado una arquitectura utilizando algunos servicios de AWS y sensores para ayudar a dar un mejor uso a los residuos reciclables, notificando a los aliados(recicladores) cuáles son los contenedores más llenos para que se haga una recolección prioritaria en estos. Se llevarán registros en la base de datos que serán analizados para tener una idea del impacto que ha tenido la arquitectura implementada con respecto a meses anteriores, además de establecer puntos críticos en la ayuda de servicios de ubicación.
 
 ## Arquitectura
-Los siguientes son algunos de los servicios usados en la arquitectura planteada.
+Esta arquitectura tendrá una platafoma que conectará a los aliados(recicladores) con los usuarios que generan los residuos aprovechables, mostrado mediante un aplicativo la ubicación de las casas a las cuales el aliado deberá recolectar estos residuos y llevarlos hasta el contenedor inteligente el cual se mostrará en el mapa y en el  cual tendrá la distancia más corta de la casa a el contenedor,los aliados estarán ubicados por localidades, distribuidos de tal forma que estén cerca a los contenedores y a los usuarios, una vez el aliado recibe estos residuos, deberá realizar la separación de estos de manera adecuada en el contenedor e informará al usuario la cantidad y la calidad de estos residuos, tambien se mostrará en tiempo real la trazabilidad de estos residuos desde la entrega hasta el punto de descargue.
 
-#### AWS Kinesis
-Amazon Kinesis ofrece la fácil obtención de datos de streaming en tiempo real obteniendo resultados optimos en el procesamiento y analisis de los mismos.
-
-#### Dynamo
-Amazon Dynamo es un servicio de bases de datos NoSQL propia de Amazon.
-
-#### Cognito
-Amazon Cognito es un servicio que permite el registro, inicio de sesión y control de acceso a las soluciones web y moviles.
-
-#### Amazon Location Service
-Amazon Location Service es un servicio para obtener la ubicación geográfica de los usuarios de una manera segura y rápida.
+![](/img/diagrama_aws.png)
 
 ## Paper
 
